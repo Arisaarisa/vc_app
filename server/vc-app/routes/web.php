@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::<HTTPメソッド>('<アドレス>', '<コントローラ名@アクション名>');
+Route::get('message/hello', 'MessageController@hello');
