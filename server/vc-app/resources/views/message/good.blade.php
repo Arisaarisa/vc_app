@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <h1>Hello from view</h1>
+  <h1>Good!!</h1>
   <p>{{$msg}}</p>
 </body>
 
